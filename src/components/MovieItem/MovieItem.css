@@ -1,6 +1,6 @@
 .movie-item {
     padding: 20px;
-    background-color: #FFEEDB;
+    background-color: #dedf9d;
     display: flex;
 }
 
@@ -17,7 +17,7 @@
 
 .movie-item__add-button {
     border: none;
-    background-color: #496DDB;
+    background-color: rgb(197, 194, 17);
     padding: 10px 15px;
     color: #FFEEDB;
     font-size: 14px;
@@ -28,4 +28,5 @@
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
+    background-color: rgb(223, 193, 23);
 }

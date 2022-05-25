@@ -27,11 +27,11 @@
     background-color: rgba(0, 8, 7);
 }
 
-.search-box__form-submit:hover:not(:disabled) {
+.search-box__form-submit:hover {
     opacity: 0.8;
     cursor: pointer;
     transition: all 0.2s linear;
-    background-color: #FFEEDB;
+    background-color: #aa9c1d;
     color: rgba(0, 8, 7);
 }
 

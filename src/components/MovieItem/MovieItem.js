@@ -13,7 +13,7 @@ class MovieItem extends Component {
                 <div className="movie-item__info">
                     <h3 className="movie-item__title">{Title}&nbsp;({Year})</h3>
                     <button type="button" className="movie-item__add-button" onClick={() => appendMovie(imdbID)}
-                    disabled={disabled}>Добавить в список</button>
+                    disabled={disabled}>Add to list</button>
                 </div>
             </article>
         );
