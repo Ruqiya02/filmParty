@@ -1,4 +1,5 @@
-.movie-item {
+@media screen and(min-width:800px) {
+    .movie-item {
     padding: 20px;
     background-color: #dedf9d;
     display: flex;
@@ -29,4 +30,39 @@
     opacity: 0.9;
     transition: all 0.2s linear;
     background-color: rgb(223, 193, 23);
+}
+}
+@media screen and (min-width:360px) and (max-width:800px) {
+    .movie-item {
+        padding: 20px;
+        background-color: #dedf9d;
+        display: flex;
+    }
+    
+    .movie-item__poster {
+        height: 150px;
+        margin-right: 21px;
+    }
+    
+    .movie-item__title {
+        font-weight: 500;
+        font-size: 21px;
+        margin-bottom: 14px;
+    }
+    
+    .movie-item__add-button {
+        border: none;
+        background-color: rgb(197, 194, 17);
+        padding: 10px 15px;
+        color: #FFEEDB;
+        font-size: 14px;
+        transition: all 0.2s linear;
+    }
+    
+    .movie-item__add-button:hover {
+        cursor: pointer;
+        opacity: 0.9;
+        transition: all 0.2s linear;
+        background-color: rgb(223, 193, 23);
+    }
 }

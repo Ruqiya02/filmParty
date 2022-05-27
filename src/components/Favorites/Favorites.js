@@ -61,7 +61,8 @@ class Favorites extends Component {
           })}
         </ul>
         <button type="button" onClick={() => this.handleSaveList()}
-                className={`favorites__save ${this.state.linkActive ? "link__none" : null}`}>
+                className={`favorites__save ${this.state.linkActive ? "link__none" : null}`}
+                disabled={!this.state.title || this.props.listMovies.length===0}>
           Save List
         </button>
         <a href={`http://localhost:3000/list/${this.state.textLink}`}

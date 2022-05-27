@@ -1,3 +1,5 @@
+@media screen and(min-width:800px) {
+
 .list-page {
     padding: 42px calc(50% - 300px);
 }
@@ -8,5 +10,26 @@
 }
 
 .list-page ul li {
-    font-size: 18px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+@media screen and (min-width:360px) and (max-width:800px) {
+    .list-page {
+        padding: 42px calc(50% - 300px);
+    }
+    
+    .list-page__title {
+        font-size: 9.44444vw;
+        margin-bottom: 7.222vw;
+        margin-left: 6.9444vw;
+    }
+    
+    .list-page ul li {
+        font-size: 5vw;
+        margin-left: 6.9444vw;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }

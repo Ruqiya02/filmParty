@@ -1,4 +1,6 @@
+
 .header {
+    width: 100%;
     background: rgb(223, 193, 23);
     padding: 20px calc(50% - 500px) 10px;
 }
