@@ -1,4 +1,4 @@
-@media screen and (min-width:800px){
+@media (min-width:800px){
     
 
 .search-box__form {
@@ -46,7 +46,7 @@
     cursor: not-allowed;
 }
 }
-@media screen and(min-width:360px) and (max-width:800px) {
+@media (min-width:360px) and (max-width:800px) {
     .search-box__form {
         display: flex;
     }

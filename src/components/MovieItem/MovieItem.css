@@ -1,4 +1,4 @@
-@media screen and(min-width:800px) {
+@media (min-width:800px) {
     .movie-item {
     padding: 20px;
     background-color: #dedf9d;
@@ -32,7 +32,7 @@
     background-color: rgb(223, 193, 23);
 }
 }
-@media screen and (min-width:360px) and (max-width:800px) {
+@media (min-width:360px) and (max-width:800px) {
     .movie-item {
         padding: 20px;
         background-color: #dedf9d;

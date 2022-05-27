@@ -1,4 +1,4 @@
-@media screen and (min-width:800px) {
+@media (min-width:800px) {
  .favorites__save:disabled{
      background-color: grey;
  }   
@@ -33,12 +33,12 @@
     transition: all 0.2s linear;
 }
 
-/* .favorites__save:hover {
+.favorites__save:hover {
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
-    background-color: #929410;
-} */
+    /* background-color: #929410; */
+}
 .link__none {
     display: none;
   }
@@ -54,7 +54,7 @@
     margin-bottom: 4px;
   }
 }
-@media screen and (min-width:360px) and (max-width:800px){
+@media (min-width:360px) and (max-width:800px){
     .favorites {
         box-sizing: border-box;
         border-radius: 10px;
