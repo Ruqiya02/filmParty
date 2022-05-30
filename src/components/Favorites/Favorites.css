@@ -45,7 +45,6 @@ svg{
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
-    /* background-color: #929410; */
 }
 .link__none {
     display: none;
@@ -71,17 +70,21 @@ svg{
   }
 }
 @media (min-width:360px) and (max-width:800px){
+    .favorites__save:disabled{
+        background-color: grey;
+    }
     .favorites {
         box-sizing: border-box;
         border-radius: 1.25vw;
         border: 0.125vw solid rgba(0, 8, 7);
         padding: 3.75vw ;
+        width: 75vw;
     }
     
     .favorites__name {
         box-sizing: border-box;
         width: 100%;
-        font-size: 2vw;
+        font-size: 5vw;
         padding: 0.625vw 1.25vw;
         border: 0.125vw solid rgba(0, 8, 7, .5);
         margin-bottom: 3vw;
@@ -96,7 +99,7 @@ svg{
 
     }        
     .favorites__list {
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
     }
     
     .favorites__save {
@@ -105,7 +108,7 @@ svg{
         background-color: #c5c743;
         padding: 1.25vw 1.875vw;
         color: #FFEEDB;
-        font-size: 1.75vw;
+        font-size: 4vw;
         transition: all 0.2s linear;
     }
     
@@ -126,7 +129,7 @@ svg{
         background-color: #c5c743;
         padding: 0.868vw 1.302vw;
         color: #FFEEDB;
-        font-size: 1.215vw;
+        font-size: 4vw;
         transition: all 0.2s linear;
         width: fit-content;
         text-decoration: none;
@@ -136,11 +139,11 @@ svg{
         justify-content: space-between;
         align-items: center;
         margin-bottom: 0.5vw;
-        font-size: 2vw;
+        font-size: 4vw;
       }
       svg{
         cursor: pointer;
-        width: 5vw;
-        height: 5vw;
+        width: 6vw;
+        height: 6vw;
     }
 }

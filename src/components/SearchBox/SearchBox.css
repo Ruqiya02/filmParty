@@ -56,30 +56,30 @@
     .search-box__form-label {
         display: flex;
         flex-direction: column;
-        font-size: 12px;
-        margin-right: 10px;
+        font-size: 3.333vw;
+        margin-right: 2.778vw;
         
     }
     
     .search-box__form-input {
         box-sizing: border-box;
         display: block;
-        border-radius: 5px;
-        margin-top: 5px;
-        width: 200px;
-        font-size: 14px;
-        padding: 5px 10px;
-        border: 1px solid rgba(0, 8, 7, .5);
+        border-radius: 1.389vw;
+        margin-top: 1.389vw;
+        width: 55.556vw;
+        font-size: 3.889vw;
+        padding: 1.389vw 2.778vw;
+        border: 0.278vw solid rgba(0, 8, 7, .5);
     }
     
     .search-box__form-submit {
-        margin-top: 17px;
-        padding: 5px 10px;
+        margin-top: 4.722vw;
+        padding: 1.389vw 2.778vw;
         border: none;
         transition: all 0.2s linear;
         color: #FFEEDB;
         background-color: rgba(0, 8, 7);
-        border-radius: 5px;
+        border-radius: 1.389vw;
         width: fit-content;
     }
     

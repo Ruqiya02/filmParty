@@ -20,9 +20,9 @@
     .header__title {
         font-family: 'Luckiest Guy', cursive;
         color: #FFEEDB;
-        font-size: 45px;
-        margin-left: 40px;
-        padding: 20px calc(50% - 500px) 10px;
+        font-size: 12.5vw;
+        margin-left: 11.111vw;
+        padding: 5.556vw calc(50% - 138.889vw) 2.778vw;
         width: fit-content;
         background: rgb(223, 193, 23);
 

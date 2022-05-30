@@ -4,7 +4,6 @@ import {appendToMovie} from "../../redux/actions/action";
 import './MovieItem.css';
 
 class MovieItem extends Component {
-    
     render() {
         const { Title, Year, Poster, imdbID, appendMovie, disabled } = this.props;
         return (

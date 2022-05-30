@@ -34,19 +34,24 @@
 }
 @media (min-width:360px) and (max-width:800px) {
     .movie-item {
-        padding: 3.75vw;
+        margin: 0;
+        padding: 13.5px;
         background-color: #dedf9d;
         display: flex;
+        justify-content: flex-start;
+        height: 25vw;
+        width: 60vw;
     }
     
     .movie-item__poster {
-        height: 18.75vw;
+        width: 20vw;
+        height: 22vw;
         margin-right: 2.625vw;
     }
     
     .movie-item__title {
         font-weight: 500;
-        font-size: 2.625vw;
+        font-size: 4vw;
         margin-bottom: 1.75vw;
     }
     
@@ -55,8 +60,9 @@
         background-color: rgb(197, 194, 17);
         padding: 1.25vw 1.875vw;
         color: #FFEEDB;
-        font-size: 1.75vw;
+        font-size: 3vw;
         transition: all 0.2s linear;
+
     }
     
     .movie-item__add-button:hover {
