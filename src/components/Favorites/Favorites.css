@@ -9,6 +9,7 @@
 }           
 
 .favorites {
+    margin-right: 5vw;
     box-sizing: border-box;
     border-radius: 0.868vw;
     border: 0.087vw solid rgba(0, 8, 7);
