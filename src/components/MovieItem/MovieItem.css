@@ -1,27 +1,27 @@
 @media (min-width:800px) {
     .movie-item {
-    padding: 20px;
+    padding: 1.736vw;
     background-color: #dedf9d;
     display: flex;
 }
 
 .movie-item__poster {
-    height: 150px;
-    margin-right: 21px;
+    height: 13.021vw;
+    margin-right: 1.823vw;
 }
 
 .movie-item__title {
     font-weight: 500;
-    font-size: 21px;
-    margin-bottom: 14px;
+    font-size: 1.823vw;
+    margin-bottom: 1.215vw;
 }
 
 .movie-item__add-button {
     border: none;
     background-color: rgb(197, 194, 17);
-    padding: 10px 15px;
+    padding: 0.868vw 1.302vw;
     color: #FFEEDB;
-    font-size: 14px;
+    font-size: 1.215vw;
     transition: all 0.2s linear;
 }
 
@@ -34,28 +34,28 @@
 }
 @media (min-width:360px) and (max-width:800px) {
     .movie-item {
-        padding: 20px;
+        padding: 3.75vw;
         background-color: #dedf9d;
         display: flex;
     }
     
     .movie-item__poster {
-        height: 150px;
-        margin-right: 21px;
+        height: 18.75vw;
+        margin-right: 2.625vw;
     }
     
     .movie-item__title {
         font-weight: 500;
-        font-size: 21px;
-        margin-bottom: 14px;
+        font-size: 2.625vw;
+        margin-bottom: 1.75vw;
     }
     
     .movie-item__add-button {
         border: none;
         background-color: rgb(197, 194, 17);
-        padding: 10px 15px;
+        padding: 1.25vw 1.875vw;
         color: #FFEEDB;
-        font-size: 14px;
+        font-size: 1.75vw;
         transition: all 0.2s linear;
     }
     

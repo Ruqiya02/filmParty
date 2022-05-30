@@ -1,21 +1,20 @@
 @media (min-width:800px){
-    
 }
 .main-page__content {
-    padding: 42px calc(50% - 500px);
+    padding: 3.646vw calc(50% - 43.403vw);
     display: flex;
     justify-content: space-between;
 
 }
 
 .main-page__main-section {
-    padding-left: 40px;
+    padding-left: 3.472vw;
     box-sizing: border-box;
     width: 60%;
 }
 
 .main-page__search-box {
-    margin-bottom: 35px;
+    margin-bottom: 3.038vw;
 }
 
 .main-page__favorites {
@@ -23,11 +22,12 @@
 }
 @media (min-width:360px) and (max-width:800px){
     .main-page__content {
-        padding: 42px calc(50% - 500px);
+        /* padding: 42px calc(50% - 500px); */
         width: 100%;
         display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
     
     }
     .main-page__main-section {

@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @media (min-width:800px) {
 
 .list-page {
-    padding: 42px calc(50% - 300px);
+    padding: 3.646vw calc(50% - 26.042vw);
+    margin-left: 10vw;
+    margin-top: 2vw;
+}
+li{
+    width: 100%;
 }
 
 .list-page__title {
-    font-size: 34px;
-    margin-bottom: 26px;
+    font-size: 2.951vw;
+    margin-bottom: 2.257vw;
 }
 
 .list-page ul li {
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 2.17vw;
+    margin-top: 0.868vw;
+    margin-bottom: 0.868vw;
 }
+.link__block2{
+    display: block;
+    font-family: "Raleway";
+    text-decoration: none;
+}
+
+
+
 }
 @media (min-width:360px) and (max-width:800px) {
     .list-page {
@@ -31,5 +45,11 @@
         margin-left: 6.9444vw;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    .link__block2{
+        display: block;
+        font-family: "Raleway";
+        width: 100%;
+        text-decoration: none;
     }
 }

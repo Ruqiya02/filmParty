@@ -53,10 +53,12 @@ class Favorites extends Component {
         <ul className="favorites__list">
           {this.props.listMovies.map((item) => {
             return (
+              <div className="list-items">
               <li className="favorites__list--item" key={item.imdbID}>
                 <p className="favorites__list--title">{item.Title} {item.Year}</p>
-                <button className="favorites__list--delete" onClick={() => this.props.removeMovie(item.imdbID)}>X</button>
+                <button className="favorites__list--delete" onClick={() => this.props.removeMovie(item.imdbID)}><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="3em" width="3em" xmlns="http://www.w3.org/2000/svg"><path d="M12 3c-4.963 0-9 4.038-9 9s4.037 9 9 9 9-4.038 9-9-4.037-9-9-9zm0 16c-3.859 0-7-3.14-7-7s3.141-7 7-7 7 3.14 7 7-3.141 7-7 7zM12.707 12l2.646-2.646c.194-.194.194-.512 0-.707-.195-.194-.513-.194-.707 0l-2.646 2.646-2.646-2.647c-.195-.194-.513-.194-.707 0-.195.195-.195.513 0 .707l2.646 2.647-2.646 2.646c-.195.195-.195.513 0 .707.097.098.225.147.353.147s.256-.049.354-.146l2.646-2.647 2.646 2.646c.098.098.226.147.354.147s.256-.049.354-.146c.194-.194.194-.512 0-.707l-2.647-2.647z"></path></svg></button>
               </li>
+              </div>
             );
           })}
         </ul>
@@ -67,7 +69,7 @@ class Favorites extends Component {
         </button>
         <a href={`http://localhost:3000/list/${this.state.textLink}`}
            className={`link__none ${this.state.linkActive ? "link__block" : null}`}
-           target="_blank" >Show List</a>
+           target="_blank">Show List</a>
       </div>
     );
   }

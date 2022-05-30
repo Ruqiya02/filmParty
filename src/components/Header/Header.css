@@ -1,13 +1,30 @@
-
+@media (min-width:800px){
 .header {
-    width: 100%;
     background: rgb(223, 193, 23);
-    padding: 20px calc(50% - 500px) 10px;
+    padding: 1.736vw calc(50% - 43.403vw) 0.868vw;
 }
 
 .header__title {
     font-family: 'Luckiest Guy', cursive;
     color: #FFEEDB;
-    font-size: 45px;
-    margin-left: 40px;
+    font-size: 3.906vw;
+    margin-left: 3.472vw;
+}
+}
+@media (min-width:360px) and (max-width:800px){
+    .header {
+        width: 100%;
+        background: rgb(223, 193, 23);
+    }
+    
+    .header__title {
+        font-family: 'Luckiest Guy', cursive;
+        color: #FFEEDB;
+        font-size: 45px;
+        margin-left: 40px;
+        padding: 20px calc(50% - 500px) 10px;
+        width: fit-content;
+        background: rgb(223, 193, 23);
+
+    }
 }
